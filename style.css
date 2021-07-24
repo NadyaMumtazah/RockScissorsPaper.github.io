@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@300;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: bold;
+    font-family: 'Tourney', cursive;
+    background-color: darkslategray;
+}
+.img-computer{
+    margin: 0px auto;
+}
+.rock, .scissors, .paper {
+    margin: 0px 55px;
+}
+img {
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 15px;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+img:hover {
+    box-shadow: 0 0 10px 5px white;
+    background-color: darkolivegreen;
+    cursor: pointer;
+
+}
+ul {
+
+    padding-left: 25px;
+}
+li {
+    display: inline-block;
+    list-style: none;
+}
+.badge {
+    padding-top: 15px;
+    font-size: 30px;
+    text-align: center;
+    background-color: darkkhaki;
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    left: 200px;
+    top: -35px;
+    border-radius: 10px;
+}
+.main {
+    background-color: darkgray;
+    height: 100%;
+    width: 50%;
+    margin: 100px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.info {
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto;
+    font-size: 24px;
+    background-color: floralwhite;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.comp-area {
+    margin-top: 20px;
+    padding: 50px 0px;
+    margin: 0px auto;
+}
+.player-area {
+    padding: 50px 0px;
+}
+.scorePlayer, .scoreComp {
+    font-size: 19px;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 100px;
+    width: 20%;
+    background-color: lightsteelblue;
+}
